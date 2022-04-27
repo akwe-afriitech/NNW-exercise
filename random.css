@@ -1,0 +1,125 @@
+/*styling the body giving it a deffine size to fit the page*/
+body , html{
+    width: 101%;
+    margin: auto;
+    padding: auto;
+   margin-top: 0px;
+   
+}
+/*styling the unorder list at the navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-align: right;
+}
+ /*setting the loist items to position them selves horizontally*/ 
+li {
+    float: left;
+}
+  /*styling the nav items*/
+li a {
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 30px 30px 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+/*styling the second nav bar*/
+.mainhead{
+    float: inline-start;
+    background-color: white;
+    width: 33%;
+    height: 75px;
+}
+.top{
+    float: left;
+    width: 33%;
+    background-color: purple;
+    column-fill: auto;
+    color: white;
+}
+section{
+    width: fit-content;
+}
+.toppic{
+   display: subgrid;
+   
+    background-image: url(me.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.bi{
+    color: white;
+    background-color: purple;
+    padding: 8px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.heading{
+    padding-left: 8%;
+    padding-top: 18%;
+    color: white;
+    font-size:60px;
+    z-index: 99;
+}
+.box{
+    width: 28%;
+    height: 350px;
+    margin: 30px;
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+    border: 0px solid;
+  
+  box-shadow: 5px 5px 10px 5px #888888;
+}
+.boxhead{
+    color: purple;
+}
+button{
+    color: white;
+    background-color: purple;
+    height: 40px;
+    border-radius: 10px;
+    width: 150px;
+}
+.toppic:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    height:63.2%;
+    width:100%;
+    background: rgba(145, 1, 145, 0.199);
+    z-index: 11;
+    margin-top: 9.2%
+}
+.toppic{
+    background-image: url(me.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    z-index: 11;
+}
+.toppic span {
+    color: rgba(128, 0, 128, 0.212);
+    background-color:white;
+    font-size:35px;
+}
+.toppic h1{
+content:"";
+position: absolute;
+top:0;
+left:0;
+height:63.2%;
+width:100%;
+z-index: 11;
+margin-top: 3%;
+}
